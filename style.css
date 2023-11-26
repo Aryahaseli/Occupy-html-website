@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Poppins:wght@200;300;400;600&family=Raleway:wght@200;400;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300;700&family=Poppins:wght@200;300;400;600&family=Raleway:wght@200;400;600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1000px;
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color: #fafafa;
+}
+
+/*topbar*/
+.topbar {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-bottom: 24px;
+    border-bottom: 2px solid #6da815;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.menu ul li a.active {
+    color: #6da815 !important;
+}
+
+menu ul li a:hover {
+    color: #6da815;
+}
+
+/*sidebar*/
+.sidebar{
+    width: 50%;
+}
+
+.sidebar h3 {
+    font-size: 18;
+    font-weight: normal;
+    font-family: 'Bebas Neue',sans-serif;
+    text-align: center;
+}
+
+.sidebar p {
+    text-align: center;
+    color: #3C3B3B;
+    padding: 14px 0;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+}
+/*sidebar2*/
+.slider2{
+    width: 50%;
+    float: right;
+}
+
+.sidebar2{
+    width: 50%;
+}
+
+.sidebar2 h3{
+    font-size: 18;
+    font-weight: normal;
+    font-family: 'Bebas Neue',sans-serif;
+    text-align: center;
+    padding-top: 140px;
+}
+
+.sidebar2 p{
+    text-align: center;
+    color: #3C3B3B;
+    padding: 14px 0;
+}
+/*sidebar3*/
+.sidebar3{
+    width: 50%;
+}
+
+.sidebar3 h3 {
+    font-size: 18;
+    font-weight: normal;
+    font-family: 'Bebas Neue',sans-serif;
+    text-align: center;
+}
+
+.sidebar3 p {
+    text-align: center;
+    color: #3C3B3B;
+    padding: 14px 0;
+}
+
+.hero3 {
+    display: flex;
+    align-items: center;
+}
+/*top-boxes*/
+.box1{
+    position: relative;
+    width: 33.33%;
+    float: left;
+}
+
+.box1 h3{
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    padding-left: 125px;
+}
+
+.box1 p{
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    padding-left: 115px;
+    padding-top: 60px;
+}
+
+.box2{
+    position: relative;
+    width: 33.33%;
+    float: left;
+}
+
+.box2 h3{
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    padding-left: 125px;
+}
+
+.box2 p{
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    padding-left: 115px;
+    padding-top: 60px;
+}
+
+.box3{
+    position: relative;
+    width: 33.33%;
+    float: left;
+}
+
+
+.box3 h3{
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    padding-left: 125px;
+}
+
+.box3 p{
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    padding-left: 115px;
+    padding-top: 60px;
+}
+/*bottom-boxes*/
+.box4{
+    position: relative;
+    width: 33.33%;
+    float: left;
+}
+
+.box4 h3{
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    padding-left: 125px;
+}
+
+.box4 p{
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    padding-left: 115px;
+    padding-top: 60px;
+}
+
+.box5{
+    position: relative;
+    width: 33.33%;
+    float: left;
+}
+
+.box5 h3{
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    padding-left: 125px;
+}
+
+.box5 p{
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    padding-left: 115px;
+    padding-top: 60px;
+}
+
+.box6{
+    position: relative;
+    width: 33.33%;
+    float: left;
+}
+
+
+.box6 h3{
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    padding-left: 125px;
+}
+
+.box6 p{
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    padding-left: 115px;
+    padding-top: 60px;
+}
+/*bottombar*/
+.person1{
+    position: relative;
+    width: 25%;
+    float: left;
+}
+
+.person1 h3{
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    padding-left: 70px;
+    padding-top: 110px;
+    font-family: 'Bebas Neue',sans-serif;
+}
+
+.person1 p{
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    padding-left: 50px;
+    padding-top: 135px;
+    font-family: 'Bebas Neue',sans-serif;
+}
+
+.person2{
+    position: relative;
+    width: 25%;
+    float: left;
+}
+
+.person2 h3{
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    padding-left: 85px;
+    padding-top: 110px;
+    font-family: 'Bebas Neue',sans-serif;
+}
+
+.person2 p{
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    padding-left: 50px;
+    padding-top: 135px;
+    font-family: 'Bebas Neue',sans-serif;
+}
+
+.person3{
+    position: relative;
+    width: 25%;
+    float: left;
+}
+
+
+.person3 h3{
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    padding-left: 70px;
+    padding-top: 110px;
+    font-family: 'Bebas Neue',sans-serif;
+}
+
+.person3 p{
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    padding-left: 50px;
+    padding-top: 135px;
+    font-family: 'Bebas Neue',sans-serif;
+}
+
+.person4{
+    position: relative;
+    width: 25%;
+    float: left;
+}
+
+
+.person4 h3{
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    padding-left: 70px;
+    padding-top: 110px;
+    font-family: 'Bebas Neue',sans-serif;
+}
+
+.person4 p{
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    padding-left: 50px;
+    padding-top: 135px;
+    font-family: 'Bebas Neue',sans-serif;
+}
+/*bottombox*/
+.bottomboxs{
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+    background-color: #6da815;
+}
+
+.bottomboxs p{
+    color: black;
+}
+
+.footer-box{
+    padding: 16px;
+    font-size: 17px;
+    background-color: green;
+}
